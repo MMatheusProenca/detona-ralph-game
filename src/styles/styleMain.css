@@ -1,0 +1,110 @@
+main{
+   height: 100%;
+   flex: 1 0 0;
+}
+.menu{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100%;
+   height: 90px;
+   background-color: black;
+}
+#start{
+   margin-top: 8px;
+   padding: 10px 20px;
+   background-color: red;
+   border-radius: 5px;
+   color: #fff;
+   cursor: pointer;
+   transition: 0.2s ease-in-out;
+}
+#start:hover{
+   background-color: rgb(189, 37, 37);
+}
+.displayNone{
+   display: none;
+}
+.menu-time,.menu-score,.menu-lives{
+   text-align: center;
+   color: #fff;
+}
+.menu-time  h2:nth-child(2),
+.menu-score  h2:nth-child(2){
+   margin-top: 0.7rem;
+}
+.menu-lives{
+   display: flex;
+   gap: 5px;
+   align-items: center;
+}
+.menu-lives > img {
+   width: auto;
+   height: 40px;
+   animation: pulseHeart 1s ease-in-out infinite;
+}
+
+.panel{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-image: url(../img/fundo-transparente-da-parede-de-tijolo-vermelho_1284-53555\ \(1\).jpg);
+   background-position: center;
+   padding: 30px;
+   background-size: 100% 100%;
+   height: 100%;
+}
+.panel-row{
+   display: flex;
+}
+.square{
+   height: 15rem;
+   width: 15rem;
+   border: 3px solid red;
+   background-color: rgb(13, 153, 136);
+   border-collapse: separate;
+}
+footer{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100px;
+   background-color: #000;
+   color: #fff;
+}
+.enemy{
+   background-image: url(../img/ralph.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes pulseHeart {
+   0%{
+      transform: scale(1);
+   }
+   50%{
+      transform: scale(1.12);
+   }
+   100%{
+      transform: scale(1);
+   }
+}
+
+
