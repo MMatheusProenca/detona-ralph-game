@@ -17,7 +17,7 @@ Projeto de jogo do Ralph, onde é preciso clicar no ralph para pontuar, em um pe
 
 ## 🚀 Como Executar o Projeto
 
-- Acesse o link do projeto para jogar: 
+- Acesse o link do projeto para jogar: https://heroic-fox-da0be3.netlify.app/
 
 ## 🤝 Contribuições
 
